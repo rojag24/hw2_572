@@ -241,7 +241,7 @@ print(f"Decision Tree: Average cross-validation accuracy is {round(np.mean(five_
 
 # Define the parameter grid for n_estimators
 param_grid = {
-    'n_estimators': [50, 100, 120, 150, 200]  # You can adjust these values as needed
+    'n_estimators': [50, 100, 120, 150, 200]  
 }
 
 # Initialize the Random Forest model
